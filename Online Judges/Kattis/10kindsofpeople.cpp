@@ -1,5 +1,7 @@
-// Author: https://github.com/smh997/
-// https://open.kattis.com/problems/10kindsofpeople
+/*
+ * https://open.kattis.com/problems/10kindsofpeople
+ * Author: https://github.com/smh997/
+ */
 
 #include <bits/stdc++.h>
 using namespace std;
