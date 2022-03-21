@@ -1,4 +1,7 @@
-# https://quera.org/problemset/136480/
+"""
+https://quera.org/contest/assignments/39254/problems/134884
+Author: https://github.com/smh997/
+"""
 n = int(input())
 for i in range(n):
     s = input()

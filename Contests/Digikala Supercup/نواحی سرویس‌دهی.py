@@ -1,4 +1,7 @@
-# https://quera.org/problemset/136483/
+"""
+https://quera.org/contest/assignments/39254/problems/134886
+Author: https://github.com/smh997/
+"""
 area = [False] * 51
 n = int(input())
 for i in range(n):
