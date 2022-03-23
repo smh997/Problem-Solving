@@ -1,9 +1,8 @@
-"""
-https://quera.org/problemset/18310/
-Author: https://github.com/smh997/
-"""
-#include <iostream>
-#include<queue>
+/*
+ * https://quera.org/problemset/18310/
+ * Author: https://github.com/smh997/
+ */
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -23,7 +22,7 @@ int main()
             flag = true;
         }
         else if(flag){
-            flag=false;
+            flag = false;
             i = -1;
             if(++res == 1000){
                 cout << "No" << endl;

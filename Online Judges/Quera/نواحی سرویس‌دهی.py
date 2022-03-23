@@ -1,0 +1,18 @@
+"""
+https://quera.org/problemset/136483/
+Author: https://github.com/smh997/
+"""
+area = [False] * 51
+n = int(input())
+for i in range(n):
+    s, e = map(int, input().split())
+    for a in range(s, e + 1):
+        area[a] = True
+sa = int(input())
+ea = int(input())
+flag = True
+for a in range(sa, ea+1):
+    if not area[a]:
+        flag = False
+        break
+print('true' if flag else 'false')
