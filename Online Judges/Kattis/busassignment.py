@@ -1,3 +1,8 @@
+"""
+https://open.kattis.com/problems/busassignment
+Author: https://github.com/smh997/
+"""
+
 n = int(input())
 ans, cap = 0, 0
 for _ in range(n):
