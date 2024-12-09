@@ -1,3 +1,8 @@
+"""
+https://open.kattis.com/problems/blandadbest
+Author: https://github.com/smh997/
+"""
+
 n = int(input())
 li = [input() for _ in range(n)]
 a, b = 'kjuklingur', 'nautakjot'
