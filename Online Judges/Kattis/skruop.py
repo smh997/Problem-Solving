@@ -1,3 +1,8 @@
+"""
+https://open.kattis.com/problems/skruop
+Author: https://github.com/smh997/
+"""
+
 n = int(input())
 ans = 7
 for _ in range(n):
