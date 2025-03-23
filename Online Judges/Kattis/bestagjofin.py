@@ -1,3 +1,8 @@
+"""
+https://open.kattis.com/problems/bestagjofin
+Author: https://github.com/smh997/
+"""
+
 n = int(input())
 a, ans = 0, ''
 for i in range(n):
