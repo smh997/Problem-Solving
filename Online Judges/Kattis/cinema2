@@ -1,0 +1,14 @@
+"""
+https://open.kattis.com/problems/cinema2
+Author: https://github.com/smh997/
+"""
+
+n, m = map(int, input().split())
+li = list(map(int, input().split()))
+k, s = 0, 0
+for a in li:
+    if s + a > n:
+        break
+    k += 1
+    s += a
+print(m - k)
