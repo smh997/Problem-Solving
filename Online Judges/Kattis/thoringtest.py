@@ -1,3 +1,8 @@
+"""
+https://open.kattis.com/problems/thoringtest
+Author: https://github.com/smh997/
+"""
+
 n = int(input())
 li = [input().lower() for _ in range(n)]
 inp = input().split()
